@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "file:///E:/Clarusway/gr-it/css/index.html",
+            "url": "file:///E:/Clarusway/gr-it/css/hw/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
