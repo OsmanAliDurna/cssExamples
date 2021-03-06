@@ -1,0 +1,42 @@
+#par1 {
+
+    /*border-top-style: groove;*/
+
+    border-style: groove;
+
+    border-width: 3px;
+
+    border-color: red green;
+
+    border-radius: 5px;
+
+    width: 50%;
+
+    margin: inherit;
+
+}
+
+#par2 {
+
+    border-style: dashed solid;
+
+    border-width: 3px;
+
+    border-color: blue red;
+
+    border-radius: 5px;
+
+    width: 50%;
+
+    margin-top: 10%;
+
+    margin-left: 20%;
+
+}
+
+div {
+
+    margin: 30px;
+
+    border: 1px solid black;
+}

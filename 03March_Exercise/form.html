@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport" content="width=, initial-scale=1.0">
+
+        <title>Document</title>
+
+    </head>
+
+    <body>
+
+        <form action="result.html" method="GET">
+            
+            <div>
+
+                <label for="car"> Choose a car : </label>
+
+                <br><br>
+
+                <select id="car" name="cars" multiple-size="3">
+
+                    <option>-Choose a car-</option>
+
+                    <optgroup label="Lüks">
+
+                        <option value="Porshe"> Porshe</option>
+
+                        <option  value="Maserati" disabled> Maserati</option>
+
+                        <option value="BMW"> BMW</option>
+
+                    </optgroup>
+
+                    <optgroup label="Binek">
+
+                        <option value="Toyota"> Toyota</option>
+
+                        <option value="Opel"> Opel</option>
+
+                    </optgroup>
+
+                </select>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="message"> Enter a comment here : </label>
+
+                <br><br>
+
+                <textarea id="message" name="message" rows="3" cols="20" style="resize : none;"> You can write here...</textarea>
+
+            </div>
+
+            <br>
+
+            <div>
+
+                <label for="input-browsers"> Browsers</label>
+
+                <br><br>
+
+                <input type="text" list="browsers" name="option" id="input-browsers">
+
+                <datalist id="browsers" name="browsers">
+
+                    <option value="Firefox"></option>
+
+                    <option value="Chrome"></option>
+
+                    <option value="Opera"></option>
+
+                    <option value="Safari"></option>
+
+                </datalist>
+
+            </div>
+
+            <br>
+
+            <fieldset>
+
+                <legend> Personal Information </legend>
+
+                <label for="name"> Name : </label>
+
+                <br>
+
+                <input type="text" id="name" value="You must fill here" required>
+
+                <br><br>
+
+                <label for="sname"> Surname : </label>
+
+                <br>
+
+                <input type="text" id="sname" placeholder="You should fill here">
+
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    
+    </body>
+
+</html>
