@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 5% 25%;
+  height: 100%;
+  font-size: 20px;
+}
+
+th {
+  height: 40px;
+  text-align: justify;
+  background-color: bisque;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+th:hover {
+  background-color: gray;
+  color: brown;
+}
+
+td:hover {
+    background-color: teal;
+    color: blue;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

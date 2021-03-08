@@ -1,0 +1,18 @@
+span {
+  display: block;
+}
+
+h1,
+#para-1 {
+  display: inline-block; /* inline dan farklı olarak margin top bottom alabiliyor. Block gibi davranmıyor. Karakteristik olarak inline özellik alabilme olarak block. */
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+h1 {
+  display: none;        /* absolute gibi çalışır. */
+  visibility: hidden;   /* relative gibi çalışır. */
+}
+
+/* bütün inline elementler margin için sadece right-left kullanır top-botton kullanılamaz.*/

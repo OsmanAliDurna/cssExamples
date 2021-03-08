@@ -1,0 +1,20 @@
+ol {
+    list-style-type: lower-greek;
+    list-style: square inside url("sqpurple.gif");
+}
+
+ol li {
+    list-style-position: outside;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+ul {
+    list-style-type: "\1F44D";
+}
+
+ul li:before {
+    content : "\2764";
+    color : blue;
+}

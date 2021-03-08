@@ -1,0 +1,29 @@
+#main {
+    width: 200px;
+    height: 1000px;
+    background-color: yellow;
+}
+
+#box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    position: relative;
+    /* z-index: -2;*/
+}
+
+#box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #0f0;
+    position: sticky;
+    top: 50px;
+    /* z-index: -1; */
+}
+
+#box-3 {
+    height: 100px;
+    background-color: #00f;
+    position: fixed;
+    width: 100%;
+}
