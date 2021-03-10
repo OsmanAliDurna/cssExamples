@@ -1,0 +1,57 @@
+.container {
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+}
+
+div {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.div-1 {
+    background-color: rgb(160, 221, 155);
+    width : 97%;
+    height: 25%;
+}
+
+.div-2 {
+    background-color: yellow;
+    width: 32%;
+    height: 70%;
+}
+
+.div-3 {
+    background-color: orange;
+    width: 31%;
+    height: 33%;
+    position: relative;
+    left: 33%;
+    bottom: 72%;
+
+}
+
+.div-4 {
+    background-color: red;
+    width: 32%;
+    height: 71%;
+    position: relative;
+    left: 65%;
+    bottom: 107%;
+}
+
+.div-5 {
+    background-color: blue;
+    width: 31%;
+    height: 32%;
+    position: relative;
+    left: 33%;
+    bottom: 141%;
+
+}
+
+a{
+    position: fixed;
+    top: 500px;
+    left: 200px;
+}
