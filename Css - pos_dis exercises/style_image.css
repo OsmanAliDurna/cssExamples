@@ -1,0 +1,45 @@
+h1{
+    font-weight: 100;
+    font-size: 60px;
+}
+
+.header {
+    font-size: 24px;
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid black;
+    position: static;
+}
+
+.logo {
+    padding: 2px 5px;
+    width: 260px;
+    height: 60px;
+    border: 1px solid black;
+    position: static;
+}
+
+.top-nav {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    position: relative;
+    left: 699px;
+    bottom: 67px;
+}
+.menu {
+    padding: 2px 5px;
+    width: 550px;
+    height: 30px;
+    border: 1px solid black;
+    position: relative;
+    left: 238px;
+    top: 17px;
+}
+
+a{
+    position: fixed;
+    top: 400px;
+    left: 200px;
+}
