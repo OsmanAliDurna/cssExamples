@@ -1,0 +1,51 @@
+* {
+  background-color: #eeeefe;
+  border: 1px solid black;
+}
+
+#main-content {
+  background-color: bisque;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#auto-width {
+  background-color: #aaaaaa;
+  width: auto;
+  height: auto;
+}
+
+#lenght-width {
+  background-color: #bbbbbb;
+  width: 50px;
+  height: 50px;
+}
+
+#percentage-width {
+  background-color: #cccccc;
+  width: 70%;
+  height: 10%;
+}
+
+#initial-width {
+  background-color: #dddddd;
+  width: initial;
+  height: initial;
+}
+
+#inherit-width {
+  background-color: #eeeeee;
+  width: inherit;
+  height: inherit;
+}
+
+#max-width {
+  background-color: #ffffff;
+  max-width: 400px;
+}
+
+#max-height {
+  max-height: 100px;
+}
