@@ -1,0 +1,50 @@
+#container {
+  display: grid;
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(2, 50px);
+  grid-area:
+  "a a a b b c c"
+  "z a d b e c f";
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border: 1px solid gray;
+}
+
+.content1 {
+  grid-area: a;
+  background-color: blue;
+}
+
+.content2 {
+  grid-area: b;
+  background-color: red;
+}
+
+.content3 {
+  grid-area: c;
+  background-color: yellow;
+}
+
+.content4 {
+  grid-area: d;
+  background-color: bisque;
+}
+
+.content5 {
+  grid-area: e;
+  background-color: grey;
+}
+
+.content6 {
+  grid-area: f;
+  background-color: green;
+}
+.content7 {
+  grid-area: z;
+  background-color: green;
+}
